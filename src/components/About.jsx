@@ -45,9 +45,7 @@ const About = () => {
       </motion.p>
       <div className="mt-20 flex justify-center flex-wrap gap-10">
         {services.map((service, index) => {
-          return (
-            <ServiceCard key={service.tittle} index={index} {...service} />
-          );
+          return <ServiceCard key={index} index={index} {...service} />;
         })}
       </div>
     </>

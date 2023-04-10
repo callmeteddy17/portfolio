@@ -14,15 +14,15 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, You can call me <span className="hero-text">Teddy</span>
-            <h1 className={`${styles.heroSubText}`}>I'm Frontend developer</h1>
           </h1>
+          <h1 className={`${styles.heroSubText}`}>I'm Frontend developer</h1>
         </div>
       </div>
       <ComputersCanvas />
       <div className="absolute xs:bottom-10 bottom-48 w-full flex justify-center  items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] p-2 rounded-3xl border-4 border-secondary flex justify-center items-center">
-            <motion.dev
+            <motion.div
               animate={{ y: [0, 24, 0] }}
               transition={{
                 repeat: Infinity,
