@@ -1,8 +1,8 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  react,
+  mindx,
+  js,
+  responsive,
   javascript,
   typescript,
   html,
@@ -42,20 +42,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
-    icon: web,
+    title: 'Javascript',
+    icon: js,
+    link: '/src/assets/js.jpg',
   },
   {
-    title: 'React Native Developer',
-    icon: mobile,
+    title: 'Responsive Design',
+    icon: responsive,
+    link: '/src/assets/responsive.jpg',
   },
   {
-    title: 'Backend Developer',
-    icon: backend,
+    title: 'React JS',
+    icon: react,
+    link: '/src/assets/react.jpg',
   },
   {
-    title: 'Content Creator',
-    icon: creator,
+    title: 'Code Intensive',
+    icon: mindx,
+    link: '/src/assets/mindx.jpg',
   },
 ];
 

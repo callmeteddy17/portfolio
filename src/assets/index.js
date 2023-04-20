@@ -1,8 +1,8 @@
 import logo from './logo.png';
-import backend from './backend.png';
-import creator from './creator.png';
-import mobile from './mobile.png';
-import web from './web.png';
+import js from './js.jpg';
+import mindx from './mindx.jpg';
+import responsive from './responsive.jpg';
+import react from './react.jpg';
 import github from './github.png';
 import menu from './menu.svg';
 import close from './close.svg';
@@ -32,10 +32,10 @@ import youtube from './youtube.jpg';
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  mindx,
+  js,
+  responsive,
+  react,
   github,
   menu,
   close,
