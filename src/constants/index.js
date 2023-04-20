@@ -44,22 +44,22 @@ const services = [
   {
     title: 'Javascript',
     icon: js,
-    link: '/src/assets/js.jpg',
+    link: 'https://raw.githubusercontent.com/callmeteddy17/portfolio/main/src/assets/js.jpg',
   },
   {
     title: 'Responsive Design',
     icon: responsive,
-    link: '/src/assets/responsive.jpg',
+    link: 'https://raw.githubusercontent.com/callmeteddy17/portfolio/main/src/assets/responsive.jpg',
   },
   {
     title: 'React JS',
     icon: react,
-    link: '/src/assets/react.jpg',
+    link: 'https://raw.githubusercontent.com/callmeteddy17/portfolio/main/src/assets/react.jpg',
   },
   {
     title: 'Code Intensive',
     icon: mindx,
-    link: '/src/assets/mindx.jpg',
+    link: 'https://raw.githubusercontent.com/callmeteddy17/portfolio/main/src/assets/mindx.jpg',
   },
 ];
 
