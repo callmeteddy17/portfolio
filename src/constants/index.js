@@ -19,9 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  tedtok,
+  youtube,
+  dasboard,
   threejs,
 } from '../assets';
 
@@ -198,67 +198,70 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Youtube Clone',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Video website application base on Youtube, which help users can see video from Youtube',
     tags: [
       {
-        name: 'react',
+        name: '#react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: '#rapidAPI',
         color: 'blue-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: '#MUI',
         color: 'blue-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: youtube,
+    source_code_link: 'https://github.com/callmeteddy17/clone-youtube.git',
+    link: 'https://starlit-frangipane-d7db5e.netlify.app/',
   },
   {
-    name: 'Job IT',
+    name: 'Dashboard',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Web application that enables users to see dashboard infomations',
     tags: [
       {
-        name: 'react',
+        name: '#react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: '#syncfusion',
         color: 'blue-text-gradient',
       },
       {
-        name: 'scss',
+        name: '#tailwind',
         color: 'blue-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: dasboard,
+    source_code_link: 'https://github.com/callmeteddy17/ted-dashboard.git',
+    link: 'https://fascinating-licorice-010d9b.netlify.app/',
   },
   {
-    name: 'Trip Guide',
+    name: 'Tedtok',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Base on Tiktok UI, TedTok enable users upload, comment, like and watch videos.',
     tags: [
       {
-        name: 'nextjs',
+        name: '#nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: '#sanity',
         color: 'blue-text-gradient',
       },
       {
-        name: 'css',
+        name: '#tailwind',
         color: 'blue-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: tedtok,
+    source_code_link: 'https://github.com/callmeteddy17/ted-tok.git',
+    link: 'https://ted-tok.vercel.app/',
   },
 ];
 
