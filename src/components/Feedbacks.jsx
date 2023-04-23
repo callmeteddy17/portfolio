@@ -28,7 +28,6 @@ const FeedbacksCard = ({
             {designation} of {company}
           </p>
         </div>
-        <img src={image} className="w-10 h-10 rounded-full object-cover" />
       </div>
     </div>
   </motion.div>

@@ -21,10 +21,9 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 
-import meta from './company/meta.png';
-import shopify from './company/shopify.png';
-import starbucks from './company/starbucks.png';
-import tesla from './company/tesla.png';
+import mx from './company/mx.png';
+import iuh from './company/iuh.png';
+import dx from './company/dx.png';
 
 import dasboard from './dashboard.jpg';
 import tedtok from './tedtok.jpg';
@@ -52,10 +51,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  mx,
+  iuh,
+  dx,
   dasboard,
   tedtok,
   youtube,

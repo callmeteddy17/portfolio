@@ -15,10 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  mx,
+  dx,
+  iuh,
   tedtok,
   youtube,
   dasboard,
@@ -84,10 +83,10 @@ const technologies = [
     name: 'React JS',
     icon: reactjs,
   },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
+  // {
+  //   name: 'Redux Toolkit',
+  //   icon: redux,
+  // },
   {
     name: 'Tailwind CSS',
     icon: tailwind,
@@ -108,67 +107,51 @@ const technologies = [
     name: 'git',
     icon: git,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+  // {
+  //   name: 'figma',
+  //   icon: figma,
+  // },
+  // {
+  //   name: 'docker',
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    title: 'Eyes recognition device for driver',
+    company_name: 'Industrial University of Ho Chi Minh city.',
+    icon: iuh,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'Nov 2021 – Apr 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'First time learns about coding with Python and handle all problems about programing device.',
+      'Make project planning and division of task, find solutions and problems.',
+      'Support members to understand how the device works and how to use device.',
+      'Led team to find out the best way to save cost, increase accuracy of the device.',
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
+    title: 'Sale Man',
+    company_name: 'DatXanh Premium.',
+    icon: dx,
+    iconBg: '#E6DEDD',
+    date: 'Mar 2022 – Sep 2022',
+    points: [
+      'Improve communication skills, problem solving and work under pressure.',
+      'Find solutions to increase sales and potential customers.',
+    ],
+  },
+  {
+    title: 'Youtube Clone',
+    company_name: 'MindX Technology School.',
+    icon: mx,
+    iconBg: '#E6DEDD',
     date: 'Jan 2022 - Jan 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Make decision in choosing project idea, find solutions for project problems and fix it.',
+      'Finish project in time with perfectly complete responsive design and function in the project.',
+      'Support members to understand all functions, and problems we have.',
     ],
   },
 ];
@@ -176,27 +159,23 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+      'I thought it was impossible for a newbie like you to do this program, You should be a programming engineer.',
+    name: 'Kyle Pham',
+    designation: 'Senior Developer',
+    company: 'Joblogic',
+  },
+  {
+    testimonial: 'I see you have a good background to learn it, keep moving!',
+    name: 'Hieu Dang',
+    designation: 'Mentor',
+    company: 'MindX Technology School',
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+      'I think you are suitable for programming work, you learn very quickly and create a very good running model.',
+    name: 'M.Si Do Si Hai',
+    designation: 'Lecturers',
+    company: 'Industrial University of Ho Chi Minh city',
   },
 ];
 
