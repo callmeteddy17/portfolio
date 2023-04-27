@@ -24,24 +24,24 @@ const ProjectCard = ({
           speed: 450,
         }}
         className="bg-[#ada8a5] p-5 rounded-2xl sm:w-[360px] w-full">
-        <div className="relative w-full h-[230px]">
+        <div
+          onClick={() => window.open(source_code_link, '_blank')}
+          className="black-gradient w-10 h-10 rounded-full flex justify-center cursor-pointer items-center absolute top-8 right-8 z-40">
           <img
-            src={image}
-            alt={name}
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-1/2 h-1/2 object-contain"
+            src={github}
+            alt="github"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, '_blank')}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center cursor-pointer items-center">
-              <img
-                className="w-1/2 h-1/2 object-contain"
-                src={github}
-                alt="github"
-              />
-            </div>
-          </div>
         </div>
+        <div
+          className="relative w-full h-[230px] cursor-pointer"
+          onClick={() => window.open(link, '_blank')}>
+          <div className="w-full h-full cursor-pointer">
+            <img src={image} alt={name} className="w-full h-full rounded-2xl" />
+          </div>
+          <div className="absolute inset-0 flex justify-end m-3 card-img_hover"></div>
+        </div>
+
         <div className="mt-5">
           <a href={link}>
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
