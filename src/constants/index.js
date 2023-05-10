@@ -22,6 +22,8 @@ import {
   youtube,
   dasboard,
   threejs,
+  tedblog,
+  tedquote,
 } from '../assets';
 
 export const navLinks = [
@@ -245,6 +247,52 @@ const projects = [
     image: tedtok,
     source_code_link: 'https://github.com/callmeteddy17/ted-tok.git',
     link: 'https://ted-tok.vercel.app/',
+  },
+  {
+    name: 'TedBlog',
+    description: 'TedBlog is the website which can read, edit, share blogs ',
+    tags: [
+      {
+        name: '#nodejs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: '#mongodb',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: '#expressjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: '#reactjs',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: tedblog,
+    source_code_link: 'https://github.com/callmeteddy17/ted-blog',
+    link: 'https://tedblog.vercel.app/',
+  },
+  {
+    name: 'Tedquote',
+    description: 'TedQuote is the place for everyone to share meaning quotes',
+    tags: [
+      {
+        name: '#nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: '#googleauth',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: '#tailwind',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: tedquote,
+    source_code_link: 'https://github.com/callmeteddy17/tedquoteshare',
+    link: 'https://tedquoteshare.vercel.app/',
   },
 ];
 

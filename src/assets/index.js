@@ -28,6 +28,8 @@ import dx from './company/dx.png';
 import dasboard from './dashboard.jpg';
 import tedtok from './tedtok.jpg';
 import youtube from './youtube.jpg';
+import tedblog from './tedblog.jpg';
+import tedquote from './tedquote.jpg';
 
 export {
   logo,
@@ -57,4 +59,6 @@ export {
   dasboard,
   tedtok,
   youtube,
+  tedblog,
+  tedquote,
 };
