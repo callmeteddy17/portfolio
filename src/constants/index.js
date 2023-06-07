@@ -24,6 +24,7 @@ import {
   threejs,
   tedblog,
   tedquote,
+  smarthome,
 } from '../assets';
 
 export const navLinks = [
@@ -182,6 +183,29 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: 'Smart Home UI',
+    description:
+      'Build a UI for company with morden style, work perfectly with all devices',
+    tags: [
+      {
+        name: '#react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: '#NEXT.JS',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: '#tailwindCSS',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: smarthome,
+    source_code_link:
+      'https://github.com/callmeteddy17/company-application-test',
+    link: 'https://company-application-test.vercel.app/',
+  },
   {
     name: 'Youtube Clone',
     description:

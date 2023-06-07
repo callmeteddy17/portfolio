@@ -30,6 +30,7 @@ import tedtok from './tedtok.jpg';
 import youtube from './youtube.jpg';
 import tedblog from './tedblog.jpg';
 import tedquote from './tedquote.jpg';
+import smarthome from './smarthome.jpg';
 
 export {
   logo,
@@ -61,4 +62,5 @@ export {
   youtube,
   tedblog,
   tedquote,
+  smarthome,
 };
